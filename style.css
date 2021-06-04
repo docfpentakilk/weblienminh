@@ -1,0 +1,185 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+.logo {
+    width: 200px;
+    height: 80px;
+    max-height: 100%;
+}
+.boxcolor {
+    width: 100%;
+    height: 70px;
+    background-color: #101215;
+
+}
+.boxmenu .menu{
+
+}
+.menu ul {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.menu ul li {
+    margin-left: 2.5rem;
+    align-items: center;
+    
+}
+.boxcolor {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.tall3 {
+    display: flex;
+    justify-content: center;
+    flex: end;
+}
+li a {
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: ;
+}
+.banner {
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+video {
+    width: 50%;
+    position: absolute;
+    top: 15.9%;
+    left: 28%;
+    border-radius: 50px;
+    z-index: -1;
+}
+.header {
+    display: flex;
+    padding: 30px 10%;
+    justify-content: space-around;
+    margin-bottom: -26px;
+}
+
+.bangtin {
+   width: 340px;
+   
+}
+.bangtin img {
+    width: 100%;
+}
+.tingame {
+    color: #0ac6e4;
+    font-weight: bold;
+}
+h3 {
+    font-size: 25px;
+}
+.mota {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: 8px;
+}
+.clock {
+    padding-top: 25px;
+    font-weight: bold;
+}
+.tall2 {
+    margin-bottom: 10px !important;
+}
+.bottom {
+    text-align: center;
+}
+.nutbam button {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    background-color: rgb(69, 191, 207);
+    border: 5px solid rgb(236, 228, 228);
+    padding: 20px 40px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.anhcuoitrang {
+    width: 100%;
+    height: 380px;
+    background-color: #101215;
+    margin: 0;
+    position: relative;
+    margin-top: 30px;
+}
+.icon {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.gioithieu {
+    color: white;
+    width: 100%;
+    width: 70%;
+    position: absolute;
+    right: 13%;
+    text-align: center;
+    margin-top: 20px;
+}
+.share ul {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 31%;
+}
+.share li {
+    margin-left: 45px;
+}
+.share {
+    width: 100%;
+    text-align: center;
+}
+i {
+    margin-right: 9px;
+}
+.cuoitrang {
+    position: absolute;
+    top: 70%;
+    right: 41%;
+    display: flex;
+}
+.choimienphi {
+    margin-top: 10px;
+    width: 295px;
+    height: 50px;
+    animation: hieuung 2s;   
+}
+.cuoitrang button {
+   padding: 0 20px;
+   background-color: aqua;
+   border: none;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border-radius: 20px;
+}
+@keyframes hieuung {
+    from {right: 900px ;}
+    to {bottom: 0px;}
+}
+@keyframes conheo {
+    from {left: 1000px ;}
+    to {bottom: 0px;}
+}
+.canhbao { 
+    animation: conheo 2s;}
+}
